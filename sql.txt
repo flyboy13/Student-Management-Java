@@ -1,0 +1,14 @@
+CREATE DATABASE 'student_database';
+USE student_database;
+
+
+
+CREATE TABLE `student` (
+  `id` int NOT NULL,
+  `name` varchar(100),
+  `grade` int ,
+  `birdthday` varchar(100),
+  `address` varchar(100),
+  `notes` varchar(500),
+  PRIMARY KEY (`id`)
+)
